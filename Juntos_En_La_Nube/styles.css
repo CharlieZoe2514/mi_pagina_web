@@ -1,0 +1,119 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1919c1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('imagenes/1.png'), auto; /* Puntero de nube */
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Encabezado */
+header {
+    background-image: url('imagenes/logo.png');  /* Aquí agregamos el logo como fondo */
+    background-size: cover;  /* El fondo ocupa todo el espacio */
+    background-position: center;  /* Centra la imagen */
+    height: 300px;  /* Ajustamos la altura del encabezado */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2.5rem; /* Tamaño del texto */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la visibilidad */
+}
+
+nav ul {
+    margin: 0;
+    position: absolute;
+    bottom: 20px; /* Los enlaces del menú estarán al fondo */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff9f1c;
+}
+
+/* Secciones */
+.section {
+    padding: 30px;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #f9a825;
+    color: #fff;
+}
+
+#capacitaciones {
+    background-color: #ffb300;
+}
+
+#proyectos {
+    background-color: #00bfae;
+    color: white;
+}
+
+#evaluacion {
+    background-color: #ff6d00;
+    color: white;
+}
+
+/* Contenido multimedia */
+video, audio {
+    margin: 20px 0;
+    width: 80%;
+    max-width: 800px;
+}
+
+.tools img {
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tools img:hover {
+    transform: scale(1.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
